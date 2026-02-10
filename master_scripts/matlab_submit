@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#$ -M kackerm3@nd.edu
+#$ -m n
+#$ -pe mpi-64 128
+#$ -q *@@richter
+#$ -N particle_process
+#$ -j y
+
+
+module load matlab/2023b
+
+
+matlab -nodisplay -nodesktop -r "run ./process_trajectories_CM1.m ; quit"

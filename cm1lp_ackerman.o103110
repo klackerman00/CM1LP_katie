@@ -1,0 +1,1553 @@
+Loading intelmpi/21.13
+  Loading requirement: intel/24.2
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0013.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E60E22A610  Unknown               Unknown  Unknown
+libc.so.6          000014E60E22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0105.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014608162A610  Unknown               Unknown  Unknown
+libc.so.6          000014608162A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0125.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E6A2A2A610  Unknown               Unknown  Unknown
+libc.so.6          000014E6A2A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0121.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E8F0C2A610  Unknown               Unknown  Unknown
+libc.so.6          000014E8F0C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0021.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014D7EF22A610  Unknown               Unknown  Unknown
+libc.so.6          000014D7EF22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0120.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000151D2182A610  Unknown               Unknown  Unknown
+libc.so.6          0000151D2182A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0110.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C92FE2A610  Unknown               Unknown  Unknown
+libc.so.6          000014C92FE2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0075.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154EA422A610  Unknown               Unknown  Unknown
+libc.so.6          0000154EA422A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0106.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001542E662A610  Unknown               Unknown  Unknown
+libc.so.6          00001542E662A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0123.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014EB5502A610  Unknown               Unknown  Unknown
+libc.so.6          000014EB5502A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0068.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C2CA02A610  Unknown               Unknown  Unknown
+libc.so.6          000014C2CA02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0122.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F50082A610  Unknown               Unknown  Unknown
+libc.so.6          000014F50082A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0104.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015478B02A610  Unknown               Unknown  Unknown
+libc.so.6          000015478B02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0007.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015111862A610  Unknown               Unknown  Unknown
+libc.so.6          000015111862A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0088.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014CE6E02A610  Unknown               Unknown  Unknown
+libc.so.6          000014CE6E02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0112.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014AB2702A610  Unknown               Unknown  Unknown
+libc.so.6          000014AB2702A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0067.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000151286E2A610  Unknown               Unknown  Unknown
+libc.so.6          0000151286E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0083.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001523E722A610  Unknown               Unknown  Unknown
+libc.so.6          00001523E722A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0018.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014652202A610  Unknown               Unknown  Unknown
+libc.so.6          000014652202A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0079.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A9D562A610  Unknown               Unknown  Unknown
+libc.so.6          000014A9D562A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0099.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F8E4C2A610  Unknown               Unknown  Unknown
+libc.so.6          000014F8E4C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0006.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014862D82A610  Unknown               Unknown  Unknown
+libc.so.6          000014862D82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0076.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000153DC922A610  Unknown               Unknown  Unknown
+libc.so.6          0000153DC922A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0096.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014910602A610  Unknown               Unknown  Unknown
+libc.so.6          000014910602A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0071.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001466F6A2A610  Unknown               Unknown  Unknown
+libc.so.6          00001466F6A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0070.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A10942A610  Unknown               Unknown  Unknown
+libc.so.6          000014A10942A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0029.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001465F0C2A610  Unknown               Unknown  Unknown
+libc.so.6          00001465F0C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0126.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B1DF22A610  Unknown               Unknown  Unknown
+libc.so.6          000014B1DF22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0091.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000145D8E62A610  Unknown               Unknown  Unknown
+libc.so.6          0000145D8E62A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0000.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000151D71A2A610  Unknown               Unknown  Unknown
+libc.so.6          0000151D71A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0101.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015240C82A610  Unknown               Unknown  Unknown
+libc.so.6          000015240C82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0023.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014681CC2A610  Unknown               Unknown  Unknown
+libc.so.6          000014681CC2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0084.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000150EAF02A610  Unknown               Unknown  Unknown
+libc.so.6          0000150EAF02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0019.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000145B90C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000145B90C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0085.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015299D82A610  Unknown               Unknown  Unknown
+libc.so.6          000015299D82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0095.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154BE882A610  Unknown               Unknown  Unknown
+libc.so.6          0000154BE882A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0127.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C1E202A610  Unknown               Unknown  Unknown
+libc.so.6          000014C1E202A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0109.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001498F3C2A610  Unknown               Unknown  Unknown
+libc.so.6          00001498F3C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0078.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000147C6AE2A610  Unknown               Unknown  Unknown
+libc.so.6          0000147C6AE2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0080.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014579582A610  Unknown               Unknown  Unknown
+libc.so.6          000014579582A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0020.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001527CE42A610  Unknown               Unknown  Unknown
+libc.so.6          00001527CE42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0086.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001536AA42A610  Unknown               Unknown  Unknown
+libc.so.6          00001536AA42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0063.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E59FC2A610  Unknown               Unknown  Unknown
+libc.so.6          000014E59FC2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0028.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015423FA2A610  Unknown               Unknown  Unknown
+libc.so.6          000015423FA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0033.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014AE0382A610  Unknown               Unknown  Unknown
+libc.so.6          000014AE0382A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0004.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B5CB22A610  Unknown               Unknown  Unknown
+libc.so.6          000014B5CB22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0066.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F494C2A610  Unknown               Unknown  Unknown
+libc.so.6          000014F494C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0017.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E69B42A610  Unknown               Unknown  Unknown
+libc.so.6          000014E69B42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0061.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000149ED902A610  Unknown               Unknown  Unknown
+libc.so.6          0000149ED902A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0022.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000151671E2A610  Unknown               Unknown  Unknown
+libc.so.6          0000151671E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0056.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001501C582A610  Unknown               Unknown  Unknown
+libc.so.6          00001501C582A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0100.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014D298E2A610  Unknown               Unknown  Unknown
+libc.so.6          000014D298E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0118.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014785302A610  Unknown               Unknown  Unknown
+libc.so.6          000014785302A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0064.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A6C202A610  Unknown               Unknown  Unknown
+libc.so.6          000014A6C202A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0117.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154AD0C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000154AD0C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0119.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014DE1D02A610  Unknown               Unknown  Unknown
+libc.so.6          000014DE1D02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0093.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E8D4A2A610  Unknown               Unknown  Unknown
+libc.so.6          000014E8D4A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0089.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A178C2A610  Unknown               Unknown  Unknown
+libc.so.6          000014A178C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0026.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000148FBC02A610  Unknown               Unknown  Unknown
+libc.so.6          0000148FBC02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0065.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F82562A610  Unknown               Unknown  Unknown
+libc.so.6          000014F82562A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0051.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F28922A610  Unknown               Unknown  Unknown
+libc.so.6          000014F28922A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0055.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014ECA6A2A610  Unknown               Unknown  Unknown
+libc.so.6          000014ECA6A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0005.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014AF2962A610  Unknown               Unknown  Unknown
+libc.so.6          000014AF2962A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0073.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001496F7A2A610  Unknown               Unknown  Unknown
+libc.so.6          00001496F7A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0030.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000150C8AE2A610  Unknown               Unknown  Unknown
+libc.so.6          0000150C8AE2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0037.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014BEFF62A610  Unknown               Unknown  Unknown
+libc.so.6          000014BEFF62A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0049.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001496C422A610  Unknown               Unknown  Unknown
+libc.so.6          00001496C422A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0090.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015325502A610  Unknown               Unknown  Unknown
+libc.so.6          000015325502A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0016.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000148B9522A610  Unknown               Unknown  Unknown
+libc.so.6          0000148B9522A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0039.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014EB6602A610  Unknown               Unknown  Unknown
+libc.so.6          000014EB6602A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0043.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C0D662A610  Unknown               Unknown  Unknown
+libc.so.6          000014C0D662A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0012.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F7BE42A610  Unknown               Unknown  Unknown
+libc.so.6          000014F7BE42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0024.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000150F83C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000150F83C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0003.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014DF7502A610  Unknown               Unknown  Unknown
+libc.so.6          000014DF7502A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0057.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000149652E2A610  Unknown               Unknown  Unknown
+libc.so.6          0000149652E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0108.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014729682A610  Unknown               Unknown  Unknown
+libc.so.6          000014729682A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0087.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014AF8BA2A610  Unknown               Unknown  Unknown
+libc.so.6          000014AF8BA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0077.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A11B62A610  Unknown               Unknown  Unknown
+libc.so.6          000014A11B62A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0032.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154097C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000154097C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0069.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000146C6502A610  Unknown               Unknown  Unknown
+libc.so.6          0000146C6502A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0009.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B91962A610  Unknown               Unknown  Unknown
+libc.so.6          000014B91962A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0113.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000146F6102A610  Unknown               Unknown  Unknown
+libc.so.6          0000146F6102A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0046.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001520E242A610  Unknown               Unknown  Unknown
+libc.so.6          00001520E242A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0082.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C64F02A610  Unknown               Unknown  Unknown
+libc.so.6          000014C64F02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0002.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B60922A610  Unknown               Unknown  Unknown
+libc.so.6          000014B60922A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0107.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000153A6302A610  Unknown               Unknown  Unknown
+libc.so.6          0000153A6302A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0011.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000150F8E42A610  Unknown               Unknown  Unknown
+libc.so.6          0000150F8E42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0115.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014727A02A610  Unknown               Unknown  Unknown
+libc.so.6          000014727A02A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0035.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F10B22A610  Unknown               Unknown  Unknown
+libc.so.6          000014F10B22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0102.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014686EA2A610  Unknown               Unknown  Unknown
+libc.so.6          000014686EA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0058.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000147CF942A610  Unknown               Unknown  Unknown
+libc.so.6          0000147CF942A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0111.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A8AAC2A610  Unknown               Unknown  Unknown
+libc.so.6          000014A8AAC2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0025.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014DD2102A610  Unknown               Unknown  Unknown
+libc.so.6          000014DD2102A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0098.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000150643E2A610  Unknown               Unknown  Unknown
+libc.so.6          0000150643E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0059.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014FC5302A610  Unknown               Unknown  Unknown
+libc.so.6          000014FC5302A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0103.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B3B422A610  Unknown               Unknown  Unknown
+libc.so.6          000014B3B422A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0072.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A5F2A2A610  Unknown               Unknown  Unknown
+libc.so.6          000014A5F2A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0097.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014844D82A610  Unknown               Unknown  Unknown
+libc.so.6          000014844D82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0116.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001495F5A2A610  Unknown               Unknown  Unknown
+libc.so.6          00001495F5A2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0014.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154780C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000154780C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0074.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001525BBE2A610  Unknown               Unknown  Unknown
+libc.so.6          00001525BBE2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0053.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015238DC2A610  Unknown               Unknown  Unknown
+libc.so.6          000015238DC2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0114.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014D98682A610  Unknown               Unknown  Unknown
+libc.so.6          000014D98682A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0027.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014FD6B82A610  Unknown               Unknown  Unknown
+libc.so.6          000014FD6B82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0081.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015283222A610  Unknown               Unknown  Unknown
+libc.so.6          000015283222A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0092.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000147F2E82A610  Unknown               Unknown  Unknown
+libc.so.6          0000147F2E82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0094.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014B5A582A610  Unknown               Unknown  Unknown
+libc.so.6          000014B5A582A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0008.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E270E2A610  Unknown               Unknown  Unknown
+libc.so.6          000014E270E2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0010.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014C6DAA2A610  Unknown               Unknown  Unknown
+libc.so.6          000014C6DAA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0036.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000153C6FE2A610  Unknown               Unknown  Unknown
+libc.so.6          0000153C6FE2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0124.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014608C62A610  Unknown               Unknown  Unknown
+libc.so.6          000014608C62A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0038.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000146F2762A610  Unknown               Unknown  Unknown
+libc.so.6          0000146F2762A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0050.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000148B5E62A610  Unknown               Unknown  Unknown
+libc.so.6          0000148B5E62A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0060.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014AFD8C2A610  Unknown               Unknown  Unknown
+libc.so.6          000014AFD8C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0052.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014557302A610  Unknown               Unknown  Unknown
+libc.so.6          000014557302A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0031.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000151BD0C2A610  Unknown               Unknown  Unknown
+libc.so.6          0000151BD0C2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0034.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014D1BF22A610  Unknown               Unknown  Unknown
+libc.so.6          000014D1BF22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0040.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014E2E862A610  Unknown               Unknown  Unknown
+libc.so.6          000014E2E862A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0001.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014F5ADA2A610  Unknown               Unknown  Unknown
+libc.so.6          000014F5ADA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0044.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000149B4182A610  Unknown               Unknown  Unknown
+libc.so.6          0000149B4182A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0041.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014795822A610  Unknown               Unknown  Unknown
+libc.so.6          000014795822A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0045.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001513A582A610  Unknown               Unknown  Unknown
+libc.so.6          00001513A582A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0047.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A5B342A610  Unknown               Unknown  Unknown
+libc.so.6          000014A5B342A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0054.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015514B22A610  Unknown               Unknown  Unknown
+libc.so.6          000015514B22A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0062.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000014A86142A610  Unknown               Unknown  Unknown
+libc.so.6          000014A86142A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0042.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          00001550AEA2A610  Unknown               Unknown  Unknown
+libc.so.6          00001550AEA2A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0015.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          0000154A4D82A610  Unknown               Unknown  Unknown
+libc.so.6          0000154A4D82A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (29): file not found, unit 17, file /scratch365/kackerm3/test_particles_bomex_2/./particle_traj/0048.dat
+Image              PC                Routine            Line        Source             
+cm1.exe            0000000000BF1E9B  Unknown               Unknown  Unknown
+cm1.exe            00000000007FFA73  write_drop_traj          2713  droplet.f90
+cm1.exe            00000000007F1E09  droplet_driver            367  droplet.f90
+cm1.exe            0000000000875B50  solve3                    949  solve3.f90
+cm1.exe            0000000000454365  cm1                      3087  cm1.f90
+cm1.exe            000000000040E82D  Unknown               Unknown  Unknown
+libc.so.6          000015348A42A610  Unknown               Unknown  Unknown
+libc.so.6          000015348A42A6C0  __libc_start_main     Unknown  Unknown
+cm1.exe            000000000040E745  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          000014C6DAA3FC30  Unknown               Unknown  Unknown
+cm1.exe            000000000040E118  Unknown               Unknown  Unknown
+libc.so.6          000014C6DAA3FC30  Unknown               Unknown  Unknown
+No errorLoading netcdf/4.7.4/intel/24.2
+  Unloading conflict: netcdf/4.9.2/intel/24.2
+cdo    import_binary: Processed 251 variables [0.41s 47MB].
+cdo    import_binary: Processed 188 variables [0.24s 41MB].
+cdo    import_binary: Processed 67 variables [4.98s 131MB].
+cdo    import_binary: Processed 10 variables [2.32s 64MB].
+cdo    import_binary: Processed 1 variable [0.29s 26MB].
+cdo    import_binary: Processed 1 variable [0.29s 26MB].
+cdo    import_binary: Processed 137 variables [0.06s 32MB].
+done

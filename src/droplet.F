@@ -2801,8 +2801,8 @@
       integer, intent(in) :: nstep
       real, intent(in) :: mtime
       real, intent(in), dimension(nparcelsLocal,npvals) :: pdata
-      integer, parameter :: num_local_traj = 500 !The maximum number of droplets which could be selected on a single MPI rank
-      integer, parameter :: num_traj_skip = 1 !The stride of the droplet trajectory PIDX
+      integer, parameter :: num_local_traj = 1500 !The maximum number of droplets which could be selected on a single MPI rank !KLA
+      integer, parameter :: num_traj_skip = 1 !The stride of the droplet trajectory PIDX, so if it's a 1 it's every single trajectory being written !KLA
       real :: compacted(num_local_traj,npvals)  !A buffer array to collect all droplets selected for trajectory output
       integer :: np,pcount,idx
       integer :: funit
@@ -3666,7 +3666,7 @@
       !Now that my_reintro has been calculated, reset to the LOCAL area for initializing droplet location
       xrange = xf(ni+1)-xf(1)
       yrange = yf(nj+1)-yf(1)
-      zrange = 20.0
+      zrange = 20.0 !KLA look at this later, they're being randomly generated in the bottom 20 m, this is an assumption 
 
       !Update the cumulative injection statistics
       num_injected = num_injected + real(my_reintro)*drop_mult
@@ -3745,7 +3745,7 @@
             end if
             pdata(np,prvpx) = 0.0
             pdata(np,prvpy) = 0.0
-            pdata(np,prvpz) = 3.0 
+            pdata(np,prvpz) = 3.0 !KLA think about this, every vertical velocity of a particle in this has a velo of 3 m/s
             pdata(np,prrp) = rad_init
             pdata(np,prrp0) = rad_init
             salinity = 0.034
