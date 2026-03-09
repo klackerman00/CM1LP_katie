@@ -456,8 +456,8 @@
              pdata(i,prvpz) = 0.0
      
              !Droplet size (radius)
-             pdata(i,prrp) = 10.0e-6 !in meters, originally 2 microns
-             pdata(i,prrp0) = 10.0e-6 !KLA changed to 10 microns
+             pdata(i,prrp) = 4.0e-6 !in meters, originally 2 microns
+             pdata(i,prrp0) = 4.0e-6 !KLA changed to 10 microns
      
              !Droplet solute mass
              salinity = 0.066

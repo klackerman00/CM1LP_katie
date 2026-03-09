@@ -1,4 +1,4 @@
- &param0
+ &PARAM0
  nx           =      256,
  ny           =      256,
  nz           =      300,
@@ -273,7 +273,7 @@
 
  &param16
  restart_format   = 1,
- restart_filetype = 2,
+ restart_filetype = 3, !changed from 2 to 3 because that's what Emily has
  restart_reset_frqtim  =  .true.,
  restart_file_theta    =  .false.,
  restart_file_dbz      =  .false.,

@@ -1,1 +1,5 @@
 cm1lp.run
+cm1lp_ackerman.o*
+
+src/*.o
+src/*.mod
