@@ -761,9 +761,15 @@
 
 	    my_reintro = 0
 
-	    if (testcase.eq.15) then  !Hurricane boundary layer spray LES case
-               call droplet_injection(pdata,xf,yf,max(drop_inject_elapse,dt),mtime,my_reintro)
-	    end if
+	    !if (testcase.eq.15) then  !Hurricane boundary layer spray LES case
+       !        call droplet_injection(pdata,xf,yf,max(drop_inject_elapse,dt),mtime,my_reintro)
+	    !end if
+
+            
+            if (testcase.eq.3) then  !KLA, Bomex Boundary layer case
+               call droplet_injection_KLA(pdata,xf,yf,max(drop_inject_elapse,dt),mtime,my_reintro)
+	       write(*,*) "in katies subroutine"
+            end if
 
             if (testcase.eq.16) then  !Pi chamber
                call droplet_injection_pi(pdata,xf,yf,max(drop_inject_elapse,dt),mtime,my_reintro)
@@ -2556,7 +2562,7 @@
          elseif (rad10_tmp .lt. rmin10 - 0.5*dhrad) then
             ibin = 1
          else
-            ibin = (floor((rad10_tmp-(rmin10-0.5*dhrad))/dhrad)+1)+1
+            ibin = (floor((rad10_tmp-(rmin10-0.5*dhrad))/dhrad)+1)
          end if
 
          !Increment that bin by the multiplicity
@@ -2654,8 +2660,8 @@
       integer, intent(in) :: nstep
       real, intent(in) :: mtime
       real, intent(in), dimension(nparcelsLocal,npvals) :: pdata
-      integer, parameter :: num_local_traj = 1500 !The maximum number of droplets which could be selected on a single 1 rank !KLA
-      integer, parameter :: num_traj_skip = 1 !The stride of the droplet trajectory PIDX, so if it's a 1 it's every single trajectory being written !KLA
+      integer, parameter :: num_local_traj = 2500 !The maximum number of droplets which could be selected on a single 1 rank !KLA
+      integer, parameter :: num_traj_skip = 100 !The stride of the droplet trajectory PIDX, so if it's a 1 it's every single trajectory being written !KLA
       real :: compacted(num_local_traj,npvals)  !A buffer array to collect all droplets selected for trajectory output
       integer :: np,pcount,idx
       integer :: funit
@@ -3334,7 +3340,10 @@
 
       end function crit_radius     
 
-      subroutine droplet_injection(pdata,xf,yf,time_since_inject,mtime,my_reintro)
+
+!!########## Katie subroutine for droplet injection #######
+
+      subroutine droplet_injection_KLA(pdata,xf,yf,time_since_inject,mtime,my_reintro)
       !Inject new particles according to some rule
       !Here use the sea spray generation function (SSGF) of Andreas (1998)
       use input, only : nparcelsLocal,npvals,myid,ni,nj,ib,ie,jb,je, &
@@ -3352,12 +3361,15 @@
       real, intent(in) :: time_since_inject
       double precision, intent(in) :: mtime
       integer, intent(out) :: my_reintro
-    
+     
+      
+      integer, parameter :: nbin = 100
       integer :: i,np,idx_tmp
       integer(i8) :: tot_after_reintro
       integer :: sum_buf(2)
-      double precision :: dFssum(101)  !Discretized cumulative spray generation function (to be calculated)
-      double precision :: binsdata(100),binsdata10(100)  !Discretized bins for SSGF; "10" is for the log10 value
+      double precision :: dFssum(nbin+1)  !Discretized cumulative spray generation function (to be calculated)
+      double precision :: binsdata(nbin),binsdata10(nbin)  !Discretized bins for SSGF; "10" is for the log10 value
+      double precision :: binsdata_edge(nbin+1),binsdata10_edge(nbin+1) !Bin edges
 
       double precision :: totdrops  !Total number being produced during this call to droplet_injection
       double precision :: rad_init  !Initial radius, being calculated one at a time according to SSGF
@@ -3372,32 +3384,45 @@
       !Set the parameters of the two lognormals:
       double precision :: c1,c2,c3,u14,cdn10,a,rand,c4,m
       double precision :: a1,a2,r80,r0,dh_ssgf,r_interval
-      double precision :: dFsdr80(100),dFmsdr0(100),dr80_dr0
-      integer :: iter,nbin,num_create,j,ierr
+      double precision :: dFsdr80(nbin),dFmsdr0(nbin),dr80_dr0
+      integer :: iter,num_create,j,ierr
       integer :: ssgf_type  !1 for Andreas 1998, 2 for Ortiz-Suslow 2016
 
       double precision :: rmin10_ssgf,rmax10_ssgf
       integer :: local_seed
       integer :: values(8)
 
-      rmin10_ssgf = log10(2d-06)
-      rmax10_ssgf = log10(500d-06)
-      dh_ssgf = (rmax10_ssgf-rmin10_ssgf)/99.0
+      !Define the bin centers and edges
+      rmin10_ssgf = log10(2d-06) !lower limit of particle formation as r_formation in log space, KLA
+      rmax10_ssgf = log10(500d-06) !maximum limit of particle formation as r_formation radius 
+      dh_ssgf = (rmax10_ssgf-rmin10_ssgf)/dble(nbin-1)
 
   !   ===== update x-axis for each bin =====
-      binsdata10(1) = rmin10_ssgf
-      binsdata(1) = 1.0d6*(10**binsdata10(1))
-      do i = 1,99
+      binsdata10(1) = rmin10_ssgf 
+      binsdata(1) = 1.0d6*(10**binsdata10(1)) ! converting first bins back to meters
+
+      binsdata10_edge(1) = rmin10_ssgf - dh_ssgf/2.0
+      binsdata_edge(1) = 1.0d6*(10**binsdata10_edge(1))
+
+
+      do i = 1,nbin-1
         binsdata10(i+1)= dh_ssgf+binsdata10(i)
-        binsdata(i+1) = 1.0d6*(10**binsdata10(i))
+        binsdata(i+1) = 1.0d6*(10**binsdata10(i+1))
+
+        binsdata10_edge(i+1) = dh_ssgf + binsdata10_edge(i)
+        binsdata_edge(i+1) = 1.0d6*(10**binsdata10_edge(i+1))
+        ! also, the above line of code should be 1.0d6*(10**binsdata10(i+1)), otherwise it repeats the first bin and cuts off the last bin
       end do
+
+      binsdata10_edge(nbin+1) = binsdata10_edge(nbin) + dh_ssgf/2.0
+      binsdata_edge(nbin+1) = 1.0d6*(10**binsdata10_edge(nbin+1))
 
 
       ! Now figure out how many particles are produced in each of
       ! those bins. This is a function of u10
       u10 = min(u10_ssgf,50.0)
 
-      ssgf_type = 2
+      ssgf_type = 2 
 
       !For Andreas 1998 model
       c1 = 10.0*smithssgf(u10,dble(10.0),dble(0.4))
@@ -3409,10 +3434,10 @@
       c4 = c2*100**-2.8*(10**6*1.963*(100**1.025))**-m
 
       dFssum(1) = 0
-      do i = 1,100
-         r0 = binsdata(i)
+      do i = 1,nbin !walk through the 100 bins 
+         r0 = binsdata(i) !grabbing the formation radius 
          ! calculate radius at 80%RH
-         r80 = 0.518*r0**0.976;
+         r80 = 0.518*r0**0.976; !reducing the formation radius to r80
  
          if (ssgf_type.eq.1) then
 
@@ -3430,6 +3455,7 @@
          elseif (ssgf_type.eq.2) then
 
              ! Almost the same, except change the spume for > 100 for Ortiz-Suslow
+             !KLA below you apply the equation based on the discrete r80 sizes
              if (r80 .lt. 10.0) then
                dFsdr80(i) =  smithssgf(u10,r80,dble(0.4))
              elseif ((r80 .ge. 10.0) .and. (r80 .lt. 37.5)) then
@@ -3443,22 +3469,27 @@
          end if
  
          ! apply eq. 3.8 from Andreas 1998
-         dFmsdr0(i) = 3.5*dFsdr80(i)*0.506*r0**-0.024
- 
-         if (i==1) then
-           dFssum(i+1) = dFmsdr0(i)
+         dFmsdr0(i) = 3.5*dFsdr80(i)*0.506*r0**-0.024 !getting the concentrations of each bin of SSA 
+
+         !! KLA, hmmmmmmmm... we're adding DENSITY bins together that are not the same widths, and we're not correcting for bin width differences...
+         if (i==1) then 
+           dFssum(i+1) = dFmsdr0(i)*(binsdata_edge(i+1)-binsdata_edge(i))
          elseif (i .gt. 1) then
-           dFssum(i+1) = dFssum(i) + dFmsdr0(i)
+           dFssum(i+1) = dFssum(i) + dFmsdr0(i)*(binsdata_edge(i+1)-binsdata_edge(i))
          endif
       end do
 
-      totdrops = dFssum(101)    !totdrops at this point is # per unit area per unit time
+      totdrops = dFssum(nbin+1)    !totdrops at this point is # per unit area per unit time
 
 
       !Define xrange and yrange to be WHOLE domain area, to calculate the total droplet number
       xrange = dx*nx
       yrange = dy*ny
-
+!write to screen what the below parameters are in the my_reintro_tmp,
+!KLA
+      write(*,*) 'time_since_inject', time_since_inject
+      write(*,*) 'totdrops', totdrops
+      write(*,*) 'drop_mult', drop_mult 
       my_reintro_tmp = xrange*yrange*time_since_inject*totdrops/drop_mult
       my_reintro = floor(my_reintro_tmp/sngl(numprocs))
 
@@ -3513,7 +3544,7 @@
                !Once a bind is identified by the conditional statement, the radius is set to a random number between the edges of the bin
 
                !$acc loop seq
-               do i = 1,100
+               do i = 1,nbin
                   if ((a .gt. dFssum(i)) .and. (a .le. dFssum(i+1))) then
                      r_interval = 10**(binsdata10(i)+dh_ssgf/2.0) - 10**(binsdata10(i)-dh_ssgf/2.0)
                      rad_init = binsdata(i) + 2.0*(rand-0.5)*r_interval
@@ -3581,7 +3612,12 @@
          if (myid == 0) write(*,*) 'WARNING CANNOT ADD MORE PARTICLES, WILL EXCEED NPARCELSMAX'  
       end if
 
-    end subroutine droplet_injection
+    end subroutine droplet_injection_KLA
+
+
+
+
+
 
     function smithssgf(u10,r80,vk)
     implicit none
@@ -3595,6 +3631,8 @@
        cdn10 = 1.2d-3
     elseif (u10 .ge. 11) then
        cdn10 = 1d-3*(0.49 + 0.065*u10)
+    else
+       cdn10 = 0 
     end if
 
     ! calculate 14 m wind speed

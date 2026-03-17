@@ -13,8 +13,8 @@
  dx     =   20.0,
  dy     =   20.0,
  dz     =    40.0,
- dtl    =   3.000,
- timax  = 86400.0, !total run time in seconds
+ dtl    =   3.200,
+ timax  = 10800.0, !total run time in seconds
  run_time =  -999.9,
  tapfrq =  3600.0,
  rstfrq = 10800.0,
@@ -43,7 +43,7 @@
  imoist    =  1,
  ipbl      =  0,
  sgsmodel  =  1,
- tconfig   =  2,
+ tconfig   =  1,
  bcturbs   =  1,
  horizturb =  0,
  doimpl    =  1,
@@ -343,9 +343,9 @@
  nparcelsInit = 1,
  nparcelsMax  = 50000000,
  drop_mult = 1000,
- drop_inject_elapse = 300.0, ! Every # seconds
- drop_inject_time = 43200.0, ! Start injeting a this timestep (seconds)
- two_way_coupling = 1,
+ drop_inject_elapse = 60.0, ! Every # seconds
+ drop_inject_time = 10.0, ! Start injeting a this timestep (seconds)
+ two_way_coupling = 0,
  drop_evap = 1,
  drop_traj = 1
  /
