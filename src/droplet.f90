@@ -647,7 +647,7 @@
             else
             if (.not.msk(np)) then 
               i=i+1
-              backfill_ind(i) = np
+              backfill_ind(i) = n          
             end if
             np=np-1
             endif
@@ -1811,7 +1811,8 @@
           k=k-1
         endif
       else
-        if( z3d.lt.sigma(k) )then
+        !if( z3d.lt.sigma(k) )then
+        if( sig3d.lt.sigma(k) ) then !KLA updated from chatgpt 
           k=k-1
         endif
       endif
@@ -2661,7 +2662,7 @@
       real, intent(in) :: mtime
       real, intent(in), dimension(nparcelsLocal,npvals) :: pdata
       integer, parameter :: num_local_traj = 2500 !The maximum number of droplets which could be selected on a single 1 rank !KLA
-      integer, parameter :: num_traj_skip = 100 !The stride of the droplet trajectory PIDX, so if it's a 1 it's every single trajectory being written !KLA
+      integer, parameter :: num_traj_skip = 1000 !The stride of the droplet trajectory PIDX, so if it's a 1 it's every single trajectory being written !KLA
       real :: compacted(num_local_traj,npvals)  !A buffer array to collect all droplets selected for trajectory output
       integer :: np,pcount,idx
       integer :: funit
@@ -3487,9 +3488,6 @@
       yrange = dy*ny
 !write to screen what the below parameters are in the my_reintro_tmp,
 !KLA
-      write(*,*) 'time_since_inject', time_since_inject
-      write(*,*) 'totdrops', totdrops
-      write(*,*) 'drop_mult', drop_mult 
       my_reintro_tmp = xrange*yrange*time_since_inject*totdrops/drop_mult
       my_reintro = floor(my_reintro_tmp/sngl(numprocs))
 
