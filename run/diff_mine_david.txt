@@ -1,0 +1,246 @@
+1,6c1,7
+<  &PARAM0
+<  nx           =      256,
+<  ny           =      256,
+<  nz           =      300,
+<  ppnode       =      16,
+<  timeformat   =       2,
+---
+> 
+>  &param0
+>  nx           =    128,
+>  ny           =    128,
+>  nz           =    128,
+>  ppnode       =      2,
+>  timeformat   =       1,
+13,17c14,18
+<  dx     =   20.0,
+<  dy     =   20.0,
+<  dz     =    40.0,
+<  dtl    =   3.200,
+<  timax  = 43200.0, !total run time in seconds
+---
+>  dx     =    40.0,
+>  dy     =    40.0,
+>  dz     =    20.0,
+>  dtl    =   0.5,
+>  timax  = 1000.0,
+19c20
+<  tapfrq =  3600.0,
+---
+>  tapfrq =   1000.0,
+21,22c22,23
+<  statfrq =   60.0,
+<  prclfrq =   60.0,
+---
+>  statfrq =  60.0,
+>  prclfrq =   100.0,
+27,28c28,29
+<  testcase  =  3, !to inject particles it's a test case of 15, hypothetically 
+<  adapt_dt  =  1,
+---
+>  testcase  =  15,
+>  adapt_dt  =  0,
+37c38
+<  advwenov  =  2,
+---
+>  advwenov  =  0,
+39c40
+<  apmasscon =  1,
+---
+>  apmasscon =  0,
+49c50
+<  doimpl    =  1,
+---
+>  doimpl    =  0,
+52,53c53,54
+<  psolver   =  3,
+<  ptype     =  5,
+---
+>  psolver   =  2,
+>  ptype     =  0,
+57,58c58,59
+<  lspgrad   =  2,
+<  eqtset    =  2,
+---
+>  lspgrad   =  3,
+>  eqtset    =  1,
+66c67
+<  bbc       =  1,
+---
+>  bbc       =  3,
+71,72c72,73
+<  isnd      = 19,
+<  iwnd      =  9,
+---
+>  isnd      =  17,
+>  iwnd      =  8,
+77c78
+<  iorigin   =  2,
+---
+>  iorigin   =  1,
+83,84c84,85
+<  iprcl     =  1,  !This turns on the parcels, and with prcl_droplet=1 below, makes them droplets
+<  prcl_droplet  =  1,
+---
+>  iprcl     =  1,
+>  prcl_droplet  = 1,
+90c91
+<  fcor    = 0.376e-4,
+---
+>  fcor    = 0.00005,
+94c95
+<  zd      =  2500.0,
+---
+>  zd      =  2000.0,
+97,99c98,100
+<  umove   = 12.5,
+<  vmove   =  3.0,
+<  v_t     =      7.0,
+---
+>  umove   =  0.0,
+>  vmove   =  0.0,
+>  v_t     =      0.0,
+125,126c126,127
+<  tsk0       = 299.28,
+<  tmn0       = 297.28,
+---
+>  tsk0       = 302.27,
+>  tmn0       = 299.15,
+130c131
+<  cecd       =      3,
+---
+>  cecd       =      1,
+132,133c133,134
+<  cnstce     =  0.001,
+<  cnstcd     =  0.001,
+---
+>  cnstce     =  0.0012,
+>  cnstcd     =  0.0025,
+138,140c139,141
+<  set_flx    =      1,
+<  cnst_shflx = 8.0e-3,
+<  cnst_lhflx = 5.2e-5,
+---
+>  set_flx    =      0,
+>  cnst_shflx =   0.10,
+>  cnst_lhflx =   0.00,
+143,144c144,145
+<  set_ust    =      1,
+<  cnst_ust   =   0.28,
+---
+>  set_ust    =      0,
+>  cnst_ust   =   0.00,
+164,169c165,170
+<  stretch_z =  1,
+<  ztop      = 3000.0,
+<  str_bot   =    0,
+<  str_top   = 3000.0,
+<  dz_bot    =   0.5,
+<  dz_top    =   19.5,
+---
+>  stretch_z =  0,
+>  ztop      =  2980.0,
+>  str_bot   =  2000.0,
+>  str_top   =  2980.0,
+>  dz_bot    =   20.0,
+>  dz_top    =   50.0,
+176,180c177,181
+<  ptc_n     = 289.5,
+<  ptc_s     = 289.5,
+<  ptc_e     = 289.5,
+<  ptc_w     = 289.5,
+<  viscosity = 25.0,
+---
+>  ptc_n     = 289.5
+>  ptc_s     = 289.5
+>  ptc_e     = 289.5
+>  ptc_w     = 289.5
+>  viscosity = 1.57e-5,  !Needs to be set to the viscosity of air, even though not doing DNS
+182c183
+<  sc_num = 0.61,
+---
+>  sc_num    = 0.61,     !Need to define a Schmidt number for the droplets
+186,189c187,190
+<  var1      =   0.0,
+<  var2      =   0.0,
+<  var3      =   0.0,
+<  var4      =   0.0,
+---
+>  var1      =  60.0,     ! Vmax (m/s)
+>  var2      =  40000.0,  ! R (m)
+>  var3      =  0.80,     ! n
+>  var4      =   2.0,
+230c231
+<  output_prs       = 1,
+---
+>  output_prs       = 0,
+233c234
+<  output_pipert    = 0,
+---
+>  output_pipert    = 1,
+242c243
+<  output_dbz       = 1,
+---
+>  output_dbz       = 0,
+258,259c259,260
+<  output_nm        = 1,
+<  output_def       = 1,
+---
+>  output_nm        = 0,
+>  output_def       = 0,
+276c277
+<  restart_filetype = 3, !changed from 2 to 3 because that's what Emily has
+---
+>  restart_filetype = 2,
+330c331
+<  prcl_ptra     = 1,
+---
+>  prcl_ptra     = 0,
+332,342c333,344
+<  prcl_nc       = 1,
+<  prcl_km       = 1,
+<  prcl_kh       = 1,
+<  prcl_tke      = 1,
+<  prcl_dbz      = 1,
+<  prcl_b        = 1,
+<  prcl_vpg      = 1,
+<  prcl_vort     = 1,
+<  prcl_rho      = 1,
+<  prcl_qsat     = 1,
+<  prcl_sfc      = 1,
+---
+>  prcl_nc       = 0,
+>  prcl_km       = 0,
+>  prcl_kh       = 0,
+>  prcl_tke      = 0,
+>  prcl_dbz      = 0,
+>  prcl_b        = 0,
+>  prcl_vpg      = 0,
+>  prcl_vort     = 0,
+>  prcl_rho      = 0,
+>  prcl_qsat     = 0,
+>  prcl_sfc      = 0,
+> 
+344,348c346,350
+<  nparcelsMax  = 500000000,
+<  drop_mult = 1000000,
+<  drop_inject_elapse = 120.0, ! Every # seconds
+<  drop_inject_time = 10800.0, ! Start injeting a this timestep (seconds)
+<  two_way_coupling = 0,
+---
+>  nparcelsMax  = 50000000,
+>  drop_mult = 10000000000,
+>  drop_inject_elapse = -1.0,
+>  drop_inject_time = 200.0,
+>  two_way_coupling = 1,
+350c352
+<  drop_traj = 1
+---
+>  drop_traj = 0
+355c357
+<  diagfrq        =       10.0, ! This parameter is in seconds
+---
+>  diagfrq        =     60.0,
+372a375
+> 
