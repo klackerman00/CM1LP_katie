@@ -1930,8 +1930,8 @@
           k=k-1
         endif
       else
-        !if( z3d.lt.sigma(k) )then
-        if( sig3d.lt.sigma(k) ) then !KLA updated from chatgpt 
+        if( z3d.lt.sigma(k) )then
+        !if( sig3d.lt.sigma(k) ) then !KLA updated from chatgpt 
           k=k-1
         endif
       endif
@@ -3586,8 +3586,8 @@
       integer :: values(8)
 
       !Define the bin centers and edges
-      rmin10_ssgf = log10(2d-06) !lower limit of particle formation as r_formation in log space, KLA
-      rmax10_ssgf = log10(500d-06) !maximum limit of particle formation as r_formation radius 
+      rmin10_ssgf = log10(4d-06) !lower limit of particle formation as r_formation in log space, KLA
+      rmax10_ssgf = log10(100d-06) !maximum limit of particle formation as r_formation radius 
       dh_ssgf = (rmax10_ssgf-rmin10_ssgf)/dble(nbin-1)
 
   !   ===== update x-axis for each bin =====
@@ -3664,7 +3664,6 @@
          ! apply eq. 3.8 from Andreas 1998
          dFmsdr0(i) = 3.5*dFsdr80(i)*0.506*r0**-0.024 !getting the concentrations of each bin of SSA 
 
-         !! KLA, hmmmmmmmm... we're adding DENSITY bins together that are not the same widths, and we're not correcting for bin width differences...
          if (i==1) then 
            dFssum(i+1) = dFmsdr0(i)*(binsdata_edge(i+1)-binsdata_edge(i))
          elseif (i .gt. 1) then
